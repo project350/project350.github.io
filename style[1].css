@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+.navbar{
+  background-color: aliceblue;
+}
+.navbar .brand{ float: left; width:40%;text-transform: uppercase;}
+.navbar .links{ float: right; width:60%;text-transform: uppercase;}
+.clearfix{ clear: both;}
+.contair{ width:1200px;background-color: aliceblue;
+ margin: auto; 
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul{list-style: none;
+  padding:0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+
+}
+.links li{
+  margin-bottom: 10px;
+  
+}
+.active,
+.links li:hover{ 
+  color:#1abc9c;
+  border-bottom: 2px solid #1abc9c;
+}
+body{
+  background-color:pink; 
+}
+.bee{
+  position: absolute;
+  left: 10%;
+  top: 2%;
+}
+.beestore{
+  position: absolute;
+  left: 12%;
+  top: 3%;
+}
+.women{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.word{
+  font-size: 20px;
+}
+.button{
+  font-family: cursive;
+  border-radius: 14px;
+  border: 2px solid black;
+  transition: 0.5s;
+  margin-left: 50px;
+  background-color:cornsilk;
+  color: black;
+}
+.button:hover {
+  font-size: 15px;
+  color: white;
+  border: 2px solid white;
+  background-color: #1abc9c;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
